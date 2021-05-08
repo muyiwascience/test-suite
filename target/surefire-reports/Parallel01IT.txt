@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: Parallel01IT
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 8.696 s <<< FAILURE! - in Parallel01IT
+Then I will get result for 0(| 0 |)  Time elapsed: 0.127 s  <<< ERROR!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: window was already closed
+  (Session info: chrome=90.0.4430.93)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Olus-MacBook-Pro-3.local', ip: '2a00:23c7:da6:f401:a927:be03:e2d2:ac20%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/0n/3by92gns5f7...}, goog:chromeOptions: {debuggerAddress: localhost:52826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: de48ee937bd3d9d4637df11c058fe57f
+*** Element info: {Using=id, value=m}
+
+| 0 |  Time elapsed: 0.127 s  <<< ERROR!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: window was already closed
+  (Session info: chrome=90.0.4430.93)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Olus-MacBook-Pro-3.local', ip: '2a00:23c7:da6:f401:a927:be03:e2d2:ac20%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/0n/3by92gns5f7...}, goog:chromeOptions: {debuggerAddress: localhost:52826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: de48ee937bd3d9d4637df11c058fe57f
+*** Element info: {Using=id, value=m}
+

@@ -1,0 +1,8 @@
+Parallel02IT.class
+uk/co/cartaxcheck/RunnerCukesTest.class
+uk/co/cartaxcheck/steps/TestHooks.class
+uk/co/cartaxcheck/steps/CarCheckSteps.class
+Parallel01IT.class
+uk/co/cartaxcheck/steps/TestHooks$1.class
+Parallel04IT.class
+Parallel03IT.class

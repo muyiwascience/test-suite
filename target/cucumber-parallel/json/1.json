@@ -1,0 +1,105 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4108819138,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestHooks.before()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Assert the page title",
+        "description": "",
+        "id": "confirm-the-page-title;assert-the-page-title;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 441117,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestHooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2152210105,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on the home page",
+            "match": {
+              "location": "CarCheckSteps.iAmOnTheHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 472719077,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I check 0 registration number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 8
+                }
+              ],
+              "location": "CarCheckSteps.iCheckRegistrationNumber(Integer)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1087683913,
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: window was already closed\n  (Session info: chrome\u003d90.0.4430.93)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Olus-MacBook-Pro-3.local\u0027, ip: \u00272a00:23c7:da6:f401:a927:be03:e2d2:ac20%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.6\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/0n/3by92gns5f7...}, goog:chromeOptions: {debuggerAddress: localhost:52826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: de48ee937bd3d9d4637df11c058fe57f\n*** Element info: {Using\u003did, value\u003dm}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy21.findElements(Unknown Source)\n\tat uk.co.cartaxcheck.pages.HomePage.getCarDataFromWebApp(HomePage.java:42)\n\tat uk.co.cartaxcheck.steps.CarCheckSteps.iWillGetResult(CarCheckSteps.java:40)\n\tat ✽.Then I will get result for 0(/Users/olu/Documents/test-suite/src/test/resources/Features/car_check_reg_number.feature:11)\n",
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "I will get result for 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 22
+                }
+              ],
+              "location": "CarCheckSteps.iWillGetResult(Integer)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Confirm the page title",
+    "description": "As a customer\nI want to check car registration number\nSo that I can validate the value of my vehicle",
+    "id": "confirm-the-page-title",
+    "keyword": "Feature",
+    "uri": "/Users/olu/Documents/test-suite/src/test/resources/Features/car_check_reg_number.feature"
+  }
+]

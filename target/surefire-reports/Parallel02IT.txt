@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: Parallel02IT
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 10.005 s <<< FAILURE! - in Parallel02IT
+Then I will get result for 1(| 1 |)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: expected:<[BW57BOF, Toyota, Yaris T2, Black, 2010]> but was:<[, , , , ]>
+
+| 1 |  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: expected:<[BW57BOF, Toyota, Yaris T2, Black, 2010]> but was:<[, , , , ]>
+

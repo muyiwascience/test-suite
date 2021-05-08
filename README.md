@@ -1,7 +1,4 @@
-# Automated Car Tax Check Test Framework called - hmrc-for-dvsa-test-repo
-
-
-### Run Test
+#Run Test
 
 mvn clean test -Dtestbed=local -Dbrowser=chrome
 

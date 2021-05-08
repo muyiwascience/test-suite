@@ -1,0 +1,105 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4401357541,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestHooks.before()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Assert the page title",
+        "description": "",
+        "id": "confirm-the-page-title;assert-the-page-title;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 146042,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestHooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1735394891,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on the home page",
+            "match": {
+              "location": "CarCheckSteps.iAmOnTheHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 643908597,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I check 1 registration number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 8
+                }
+              ],
+              "location": "CarCheckSteps.iCheckRegistrationNumber(Integer)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2471887965,
+              "error_message": "java.lang.AssertionError: expected:\u003c[BW57BOF, Toyota, Yaris T2, Black, 2010]\u003e but was:\u003c[, , , , ]\u003e\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\n\tat org.junit.Assert.assertEquals(Assert.java:118)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat uk.co.cartaxcheck.steps.CarCheckSteps.iWillGetResult(CarCheckSteps.java:45)\n\tat ✽.Then I will get result for 1(/Users/olu/Documents/test-suite/src/test/resources/Features/car_check_reg_number.feature:11)\n",
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "I will get result for 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 22
+                }
+              ],
+              "location": "CarCheckSteps.iWillGetResult(Integer)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Confirm the page title",
+    "description": "As a customer\nI want to check car registration number\nSo that I can validate the value of my vehicle",
+    "id": "confirm-the-page-title",
+    "keyword": "Feature",
+    "uri": "/Users/olu/Documents/test-suite/src/test/resources/Features/car_check_reg_number.feature"
+  }
+]

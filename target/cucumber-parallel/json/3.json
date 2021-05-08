@@ -1,0 +1,104 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4112822360,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestHooks.before()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Assert the page title",
+        "description": "",
+        "id": "confirm-the-page-title;assert-the-page-title;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 113246,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestHooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2635913053,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on the home page",
+            "match": {
+              "location": "CarCheckSteps.iAmOnTheHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 609226973,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I check 2 registration number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 8
+                }
+              ],
+              "location": "CarCheckSteps.iCheckRegistrationNumber(Integer)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2013524004,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I will get result for 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 22
+                }
+              ],
+              "location": "CarCheckSteps.iWillGetResult(Integer)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Confirm the page title",
+    "description": "As a customer\nI want to check car registration number\nSo that I can validate the value of my vehicle",
+    "id": "confirm-the-page-title",
+    "keyword": "Feature",
+    "uri": "/Users/olu/Documents/test-suite/src/test/resources/Features/car_check_reg_number.feature"
+  }
+]
